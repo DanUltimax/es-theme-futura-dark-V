@@ -1,0 +1,52 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Nintendo Wii was released in 2006. Nintendo aimed to develop the Wii with a more casual audience in mind by incorporating more accessible gameplay options such as motion controls. The Wii sold a whopping 101 million units.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>Wii</text>
+			<pos>0.03 0.08</pos>					
+		</text>		
+		<text name="system_year" extra="true">
+			<text>2006 - 2020</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.11 0.055</pos>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>Wii 2006 - 2020</text>			
+		</text>				
+	</view>		
+
+</theme>

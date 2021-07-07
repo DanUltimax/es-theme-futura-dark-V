@@ -1,0 +1,52 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+    <include>./../futura.xml</include>
+
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./system.svg</path>
+        </image>
+    </view>
+	
+<!-- SYSTEM VIEW START //-->	
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Sony PlayStation 3 was released in 2006, a year after the xbox 360 released. The PS3 at launched at a very fair and reasonable price of 600 US dollars. Kidding, of course. The price seems to be so high because the ps3 had a very unique architecture that affected game development on the PS3 in its early years.</text>
+		</text>	
+<!-- screenshot left //-->		
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+<!-- screenshot center //-->
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+<!-- screenshot right //-->			
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	
+<!-- BASIC VIEW START //-->	
+	<view name="basic">
+		<text name="system_name" extra="true">
+			<text>PlayStation 3</text>
+			<pos>0.03 0.08</pos>					
+		</text>		
+		<text name="system_year" extra="true">
+			<text>2006 - Now</text>
+		</text>	
+	</view>
+	
+<!-- DETAILED VIEW START //-->	
+	<view name="detailed, video">
+		<image name="logo">
+			<pos>0.11 0.055</pos>
+		</image>		
+		<text name="system_name_year" extra="true">
+			<text>PS3 2006 - Now</text>			
+		</text>				
+	</view>		
+
+</theme>
